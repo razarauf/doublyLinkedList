@@ -1,0 +1,417 @@
+Script started on Mon Jan 20 17:21:58 2014
+ 
+news: OpenSSH
+ 
+Script on hercules[1]% make clean
+rm -f *.o main
+Script on hercules[2]% make
+g++ -c main.c
+g++ -c LinkedList.c
+g++ main.o LinkedList.o -o main
+Script on hercules[3]% ks[K[Kls
+LinkedList.c   LinkedList.o   main*          main.o
+LinkedList.h   asg1.log       main.c         makefile
+Script on hercules[4]% make[K[K[K[Kmain
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:i p
+
+***There doesn't seem to be anything here...***
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:q
+
+***...here anything be to seem doesn't There***
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:i d
+Enter artist's name to delete: raza
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:p
+
+***There doesn't seem to be anything here...***
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:i
+Enter artist's name [100]: raza
+Enter album's name [50]: thealbu  bum
+Enter song's name [200]: thesong
+Enter date: 120114
+Enter runtime: 5
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:ra  i p
+
+***Printing in order:***
+Artist: raza
+Album: thealbum
+Song Title: thesong
+Date: 120114
+Runtime: 5
+
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:q
+
+***Printing in backward order:***
+Artist: raza
+Album: thealbum
+Song Title: thesong
+Date: 120114
+Runtime: 5
+
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:p i
+Enter artist's name [100]: raza
+Enter album's name [50]: the life o  f z raza
+Enter song's name [200]: the song of life
+Enter date: 01  01  1201    300122
+Enter runtime: 1
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:i p
+
+***Printing in order:***
+Artist: raza
+Album: the life of raza
+Song Title: the song of life
+Date: 300122
+Runtime: 1
+
+Artist: raza
+Album: thealbum
+Song Title: thesong
+Date: 120114
+Runtime: 5
+
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:q
+
+***Printing in backward order:***
+Artist: raza
+Album: thealbum
+Song Title: thesong
+Date: 120114
+Runtime: 5
+
+Artist: raza
+Album: the life of raza
+Song Title: the song of life
+Date: 300122
+Runtime: 1
+
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:i
+Enter artist's name [100]: notraza
+Enter album's name [50]: not   t ttheab  albm um
+Enter song's name [200]: notthesong
+Enter date: 091013
+Enter runtime: 99
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:p
+
+***Printing in order:***
+Artist: raza
+Album: the life of raza
+Song Title: the song of life
+Date: 300122
+Runtime: 1
+
+Artist: raza
+Album: thealbum
+Song Title: thesong
+Date: 120114
+Runtime: 5
+
+Artist: notraza
+Album: notthealbum
+Song Title: notthesong
+Date: 91013
+Runtime: 99
+
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:q
+
+***Printing in backward order:***
+Artist: notraza
+Album: notthealbum
+Song Title: notthesong
+Date: 91013
+Runtime: 99
+
+Artist: raza
+Album: thealbum
+Song Title: thesong
+Date: 120114
+Runtime: 5
+
+Artist: raza
+Album: the life of raza
+Song Title: the song of life
+Date: 300122
+Runtime: 1
+
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:i d p i
+Enter artist's name [100]: razaq x  k
+Enter album's name [50]: blah
+Enter song's name [200]: blah
+Enter date: 123456
+Enter runtime: 3
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:p
+
+***Printing in order:***
+Artist: raza
+Album: the life of raza
+Song Title: the song of life
+Date: 300122
+Runtime: 1
+
+Artist: razk
+Album: blah
+Song Title: blah
+Date: 123456
+Runtime: 3
+
+Artist: raza
+Album: thealbum
+Song Title: thesong
+Date: 120114
+Runtime: 5
+
+Artist: notraza
+Album: notthealbum
+Song Title: notthesong
+Date: 91013
+Runtime: 99
+
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:d
+Enter artist's name to delete: raza
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:p
+
+***Printing in order:***
+Artist: razk
+Album: blah
+Song Title: blah
+Date: 123456
+Runtime: 3
+
+Artist: notraza
+Album: notthealbum
+Song Title: notthesong
+Date: 91013
+Runtime: 99
+
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:q
+
+***Printing in backward order:***
+Artist: notraza
+Album: notthealbum
+Song Title: notthesong
+Date: 91013
+Runtime: 99
+
+Artist: razk
+Album: blah
+Song Title: blah
+Date: 123456
+Runtime: 3
+
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:d
+Enter artist's name to delete: razk
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:p
+
+***Printing in order:***
+Artist: notraza
+Album: notthealbum
+Song Title: notthesong
+Date: 91013
+Runtime: 99
+
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:d
+Enter artist's name to delete: notraza
+Cannot delete last node!!! No more time left to fix this:(
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:p
+
+***There doesn't seem to be anything here...***
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:q
+
+***...here anything be to seem doesn't There***
+
+*******************************************************
+i: Insert (Insert an element and keep the list ordered)
+d: Delete (Delete a node with the given value)
+p: Print  (Print the content of the current list)
+q: Print Backward (Print the content of the current list - backwards)
+k: Quit   (Quit the program)
+*******************************************************
+   Please enter your choice here:k
+Script on hercules[5]% exirt
+exirt: Command not found.
+Script on hercules[6]% exit
+exit
+
+script done on Mon Jan 20 17:26:16 2014
